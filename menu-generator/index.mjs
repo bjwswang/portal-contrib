@@ -78,7 +78,6 @@ const watchFileChange = (configData) => {
 * @param {string} configData.dataPathName - 原始菜单数据文件位置，相对调用 generateMenuFile 方法的文件的相对路径，包含文件名
 * @param {string} configData.metaUrl - 固定为 import.meta.url
 * @param {number} configData.dataFileChangeDelay - 非必填，原始菜单数据文件改变后重新编译生成 menu.json 的消抖时间，毫秒，默认 3*1000 ms，可能有点慢
-* 详细说明：https://gitlab.dev.21vianet.com/zhang.pengcheng3/shared/-/blob/dev-branch/menu-generator/README.md
 * @example configData 示例👇
 * generateMenuFile({
 *   basename: '/service-mesh-management',
