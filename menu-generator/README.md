@@ -17,7 +17,7 @@ menu-generator 是一个 NodeJS 的菜单生成工具。
 |---------------------|-------------------------------|----------------------------------|
 | basename            | portal 的 basename | string|
 | filePathName        | 文件生成位置，⚠️相对调用 generateMenuFile 方法的文件的相对路径，包含文件名 | string|
-| dataPathName        | [原始菜单数据文件](https://gitlab.dev.21vianet.com/sbg2-tenxcloud/contrib/tenx-ui/dock-app/-/blob/master/wiki/menu/index.md)位置，⚠️相对调用 generateMenuFile 方法的文件的相对路径，包含文件名 | string|
+| dataPathName        | [原始菜单数据文件](/blob/master/wiki/menu/index.md)位置，⚠️相对调用 generateMenuFile 方法的文件的相对路径，包含文件名 | string|
 | metaUrl             | 固定为 import.meta.url, 调用 generateMenuFile 方法的文件的位置 | import.meta.url|
 | dataFileChangeDelay | 非必填，原始菜单数据文件改变后重新编译生成 menu.json 的消抖时间，毫秒，默认 3*1000 ms，可能有点慢  | number|
 
